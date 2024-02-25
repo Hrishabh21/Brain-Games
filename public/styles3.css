@@ -1,0 +1,57 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #e9fa87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.container {
+    background-color: #628f9b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 18px;
+}
+
+#guess-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#guess-button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#attempts, #score ,#highest {
+    font-weight: bold;
+    font-size: 24px;
+}
